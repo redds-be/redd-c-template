@@ -97,7 +97,7 @@ I don't expect anyone other than me to contribute, but you should follow these s
 **Fork -> Patch -> Push -> Pull Request**
 
 The **C** code is linted with [`clang-tidy`](https://clang.llvm.org/extra/clang-tidy/), [`cppcheck`](https://github.com/danmar/cppcheck), [`cpplint`](https://github.com/cpplint/cpplint), [`include-what-you-use`](https://github.com/include-what-you-use/include-what-you-use) and
-formatted with [`clang-format`](https://www.kernel.org/doc/html/next/process/clang-format.html). See the Makefile targets.
+formatted with [`clang-format`](https://clang.llvm.org/docs/ClangFormat.html). See the Makefile targets.
 If there are false positives, feel free to change configuration.
 and justify it when committing to your branch or in your pull request.
 
