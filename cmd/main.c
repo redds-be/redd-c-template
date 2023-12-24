@@ -2,6 +2,7 @@
 
 #include "../include/hello.h"
 
+// main drives the application.
 int main(void) {
     printf("%s\n", helloWorld());
 
