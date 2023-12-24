@@ -4,6 +4,8 @@
 #include "../include/hello.h"
 
 // TestHelloWorld tests if the hello world message is correct
+void TestHelloWorld(void);
+
 void TestHelloWorld(void) {
     assert((strncmp(helloWorld(), "Hello, World!", 14) == 0));
 }
